@@ -1,0 +1,161 @@
+#title{
+    background-color: #ff4c68;
+    
+    
+}
+#heading{
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-size: 3rem;
+   
+}
+#title{
+    color: white;
+}
+.container-fluid{
+    padding:3% 15% 7%;
+
+}
+body{
+    font-family: 'Montserrat';
+  
+
+}
+/* navbar */
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'montserrat-light';
+}
+.navbar-nav{
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+/* download buttons */
+.download-btn{
+    margin: 2rem 1rem 2rem;
+}
+/* title image */
+
+.title-img{
+    width:50%;
+    /* height: 80%; */
+    transform: rotate(25deg);
+    
+    margin-bottom: 20px;
+   position: absolute;
+    
+   
+}
+/* features-box */
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family:'Montserrat' }
+    p{color: #8f8f8f;
+    font-family: sans-serif;
+    }
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* testimonials */
+
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    
+}
+#press{
+    background-color: #ef8172;
+    padding: 7% 15%;
+
+}
+#hello{
+    padding: 7% 15%;
+   
+    padding: auto;
+}
+.press-icon{
+    width: 20%;
+    padding: 20px;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing section */
+.card{
+    text-align: center;
+}
+#pricing{
+    text-align: center;
+}
+
+@media (max-width: 1028px)
+
+{   .title-img{
+    position: static;
+    transform: rotate(0);
+}
+#title{
+    text-align: center;
+}
+
+
+}
+/* call to action */
+#cta{
+    background-color: #ff4c68;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    
+   padding: 100px 400px;
+}
+.ctaa{
+    font-size: 2.5rem;
+}
+@media (max-width: 1028px)
+{
+   #cta{padding: 100px 100px;
+}}
+/* footer */
+#footer{
+    text-align: center;
+    color: grey;
+    height: 100px;
+}
+.fab{
+    color: grey;
+    margin: 5px;
+    padding-top: 10px;
+}
